@@ -14,10 +14,10 @@ Hahow Quality Engineer 徵才小專案
 #### 方法一
 開啟終端機，進入專案資料夾後輸入執行指令
 ```
-python Api_test/api_test.py
+python Api_test/tk_api_view.py
 ```
 #### 方法二
-使用編譯器開啟專案，執行`Api_test/api_test.py`檔案。
+使用編譯器開啟專案，執行`Api_test/tk_api_view.py`檔案。
 
 ### 執行 UI 測試
 #### 方法一
@@ -30,13 +30,14 @@ python Ui_test/ui_test.py
 
 ## 專案架構
 ```
-├── Api_test/         # 存API測試檔案的資料夾 
-│   └──api_test.py    #    執行API測試的檔案
-├── Ui_test/          # 存UI測試檔案的資料夾
-│   ├── assets/       #    存比對原圖的資料夾
-│   ├── compare/      #    存比對目標圖的資料夾
-│   └── ui_test.py    #    執行UI測試的檔案
+├── Api_test/          # 存API測試檔案的資料夾 
+│   ├──api_test.py     #    運行API測試的檔案
+│   └──tk_api_view.py  #    執行API測試的介面視窗
+├── Ui_test/           # 存UI測試檔案的資料夾
+│   ├── assets/        #    存比對原圖的資料夾
+│   ├── compare/       #    存比對目標圖的資料夾
+│   └── ui_test.py     #    執行UI測試的檔案
 ├── .gitignore
-├── README.md         # 專案小介紹文件
-└── requirement.txt   # 此專案用到的外部Python庫
+├── README.md          # 專案小介紹文件
+└── requirement.txt    # 此專案用到的外部Python庫
 ```
