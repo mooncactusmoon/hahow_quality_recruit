@@ -8,7 +8,7 @@ Hahow Quality Engineer 徵才小專案
 3. 下載 [Chrome WebDriver](https://chromedriver.chromium.org/downloads)
 4. 安裝 requirements
     ```
-    pip install -r requirements.txt
+    pip install -r requirement.txt
     ```
 ### 執行 API 測試
 #### 方法一
